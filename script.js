@@ -9,9 +9,7 @@ bonusButton.addEventListener("click", () => {
     footer.classList.remove("hidden")
     bonusButton.classList.add("hidden")
     audio.play()
-    window.scrollTo({
-        top: 0,
-    })
+    window.scrollTo(0, document.body.scrollHeight);
 })
 
 
